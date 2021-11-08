@@ -1,57 +1,57 @@
 # telemedicine-backend
 
-## Initial Installations(For ubuntu)
+### Initial Installations(For ubuntu)
 1. virtualenv
 ```console
-sudo apt-get install virtualenv
+yash97@yash:~$ sudo apt-get install virtualenv
 ```
 2. pip3
 ```console
-sudo apt-get install python3-pip
+yash97@yash:~$ sudo apt-get install python3-pip
 ```
 
-## Initial Setup(For ubuntu)
+### Initial Setup(For ubuntu)
 1. Make Projects directory
 ```console
-mkdir Projects/
-cd Projects
+yash97@yash:~$ mkdir Projects/
+yash97@yash:~$ cd Projects
 ```
 2. Clone the repository
 ```console
-git clone https://github.com/yashrtalele97/telemedicine-backend.git
-cd telemedicine-backend/
+yash97@yash:~$ git clone https://github.com/yashrtalele97/telemedicine-backend.git
+yash97@yash:~$ cd telemedicine-backend/
 ```
 3. Create virtual environment
 ```console
-virtualenv venv
+yash97@yash:~$ virtualenv venv
 ```
 4. Activate virtual environment
 ```console
-source venv/bin/activate
+yash97@yash:~$ source venv/bin/activate
 ```
 5. Install requirements.txt
 ```console
-pip3 install -r requirements.txt
+yash97@yash:~$ pip3 install -r requirements.txt
 ```
 
-## Steps to start the backend server(For ubuntu)
+### Steps to start the backend server(For ubuntu)
 1. Make initial migrations
 ```console
-python manage.py makemigrations
+yash97@yash:~$ python manage.py makemigrations
 ```
-2. Migraye
+2. Migrate
 ```console
-python manage.py migrate
+yash97@yash:~$ python manage.py migrate
 ```
 3. Run the server
   - On the localhost  
     ```console
-    python manage.py runserver
+    yash97@yash:~$ python manage.py runserver
     ```
   - On the IP address
   ```console
-   ip address
+   yash97@yash:~$ ip address
    # copy the inet address from wl01
    # PORT can be any 4 digits number, but make sure that port is not used by any other application
-   python manage.py runserver 192.XXX.X.XXX:PORT
+   yash97@yash:~$ python manage.py runserver 192.XXX.X.XXX:PORT
   ```
