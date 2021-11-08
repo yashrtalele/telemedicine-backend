@@ -12,7 +12,7 @@ yash97@yash:~$ sudo apt-get install python3-pip
 ```
 #### For windows
 1. virtualenv
-```console
+```powershell
 PS C:\Users\yasht> python -m pip install --upgrade pip
 PS C:\Users\yasht> python -m pip install --user virtualenv
 ```
@@ -43,20 +43,20 @@ yash97@yash:~$ pip3 install -r requirements.txt
 ```
 #### For windows
 1. Clone the repository
-```console
+```powershell
 PS C:\Users\yasht> git clone https://github.com/yashrtalele97/telemedicine-backend.git
 PS C:\Users\yasht> cd telemedicine-backend/
 ```
 2. Create virtual environment
-```console
+```powershell
 PS C:\Users\yasht> python -m venv env
 ```
 3. Activate virtual environment
-```console
+```powershell
 PS C:\Users\yasht> .\env\Scripts\activate
 ```
 4. Install requirements.txt
-```console
+```powershell
 PS C:\Users\yasht> pip install -r requirements.txt
 ```
 
@@ -87,25 +87,25 @@ yash97@yash:~$ python manage.py migrate
     ```
 #### For windows
 1. Make initial migrations
-```console
+```powershell
 PS C:\Users\yasht> python manage.py makemigrations
 ```
 2. Migrate
-```console
+```powershell
 PS C:\Users\yasht> python manage.py migrate
 ```
 3. Run the server
   - On the localhost  
-    ```console
+    ```powershell
     PS C:\Users\yasht> python manage.py runserver
     ```
   - On the IP address (for the following the powershell or windows terminal need to be run as administrator)
-    ```console
+    ```powershell
     PS C:\WINDOWS\system32> Get-NetIPAddress -AddressFamily IPV4
     ```
    
     > copy the ip address <br />
     > PORT can be any 4 digits number, but make sure that port is not used by any other application
-    ```console
+    ```powershell
     PS C:\Users\yasht> python manage.py runserver 192.XXX.X.XXX:PORT
     ```
