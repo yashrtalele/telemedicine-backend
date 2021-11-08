@@ -49,9 +49,9 @@ yash97@yash:~$ python manage.py migrate
     yash97@yash:~$ python manage.py runserver
     ```
   - On the IP address
-  ```console
-   yash97@yash:~$ ip address
-   ```
+    ```console
+    yash97@yash:~$ ip address
+    ```
    
    > copy the inet address from wl01
    > PORT can be any 4 digits number, but make sure that port is not used by any other application
