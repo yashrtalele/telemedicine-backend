@@ -110,3 +110,7 @@ PS C:\Users\yasht\projects\telemedicine-backend> python manage.py migrate
     ```powershell
     PS C:\Users\yasht\projects\telemedicine-backend> python manage.py runserver 192.XXX.X.XXX:PORT
     ```
+### To deactivate virtualenv
+```console
+deactivate
+```
