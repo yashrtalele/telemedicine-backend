@@ -106,7 +106,7 @@ PS C:\Users\yasht\projects\telemedicine-backend> python manage.py migrate
     ```
    
     > copy the ip address <br />
-    > PORT can be any 4 digits number, but make sure that port is not used by any other application
+    > PORT can be any 4 digit number, but make sure that port is not used by any other application
     ```powershell
     PS C:\Users\yasht\projects\telemedicine-backend> python manage.py runserver 192.xxx.xxx.xxx:PORT
     ```
