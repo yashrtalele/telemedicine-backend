@@ -44,11 +44,11 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 3. Run the server
-  ⋅⋅* On the localhost  
+  - On the localhost  
     ```console
     python manage.py runserver
     ```
-  ⋅⋅* On the IP address
+  - On the IP address
   ```console
    ip address
    # copy the inet address from wl01
