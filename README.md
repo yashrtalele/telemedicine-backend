@@ -1,6 +1,7 @@
 # telemedicine-backend
 
-### Initial Installations(For ubuntu)
+### Initial Installations
+#### For ubuntu
 1. virtualenv
 ```console
 yash97@yash:~$ sudo apt-get install virtualenv
@@ -9,8 +10,15 @@ yash97@yash:~$ sudo apt-get install virtualenv
 ```console
 yash97@yash:~$ sudo apt-get install python3-pip
 ```
+#### For windows
+1. virtualenv
+```console
+python -m pip install --upgrade pip
+python -m pip install --user virtualenv
+```
 
-### Initial Setup(For ubuntu)
+### Initial Setup
+#### For ubuntu
 1. Make Projects directory
 ```console
 yash97@yash:~$ mkdir Projects/
@@ -33,8 +41,26 @@ yash97@yash:~$ source venv/bin/activate
 ```console
 yash97@yash:~$ pip3 install -r requirements.txt
 ```
+#### For windows
+1. Clone the repository
+```console
+git clone https://github.com/yashrtalele97/telemedicine-backend.git
+cd telemedicine-backend/
+```
+2. Create virtual environment
+```console
+python -m venv venv
+```
+3. Activate virtual environment
+```console
+.\venv\Scripts\activate
+```
+4. Install requirements.txt
+```console
+pip install -r requirements.txt
+```
 
-### Steps to start the backend server(For ubuntu)
+### Steps to start the backend server
 1. Make initial migrations
 ```console
 yash97@yash:~$ python manage.py makemigrations
