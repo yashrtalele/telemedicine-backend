@@ -81,7 +81,7 @@ yash97@yash:~/Projects/telemedicine-backend$ python manage.py migrate
     yash97@yash:~/Projects/telemedicine-backend$ ip address
     ```
    
-    > copy the inet address from wlo1 <br />
+    > copy the inet address from wlo1/wlp3s0 <br />
     > PORT can be any 4 digits number, but make sure that port is not used by any other application
     ```console
     yash97@yash:~/Projects/telemedicine-backend$ python manage.py runserver 192.XXX.X.XXX:PORT
