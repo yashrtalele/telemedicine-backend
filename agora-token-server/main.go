@@ -41,7 +41,7 @@ func main() {
 	api.GET("rtc/:channelName/:role/:tokentype/:uid/", getRtcToken)
 	api.GET("rtm/:uid/", getRtmToken)
 	api.GET("rte/:channelName/:role/:tokentype/:uid/", getBothTokens)
-	api.Run("192.168.0.101:8080")
+	api.Run("192.xxx.xxx.xxx:8080")
 }
 
 func nocache() gin.HandlerFunc {
