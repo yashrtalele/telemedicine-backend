@@ -120,7 +120,7 @@ deactivate
 
 ### Run Agora Token Server
 #### For ubuntu
-1. Replace the ip address on the line number 44 with your ip address.
+1. Replace the ip address on the line number 44 in main.go with your ip address.
 ```console
 yash97@yash:~/Projects/telemedicine-backend/agora-token-server$ go run main.go
 ```
