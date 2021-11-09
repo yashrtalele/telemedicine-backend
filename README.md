@@ -125,6 +125,6 @@ deactivate
 yash97@yash:~/Projects/telemedicine-backend/agora-token-server$ go run main.go
 ```
 2. Token server
-   - RTC token can be obtained by this address : 192.xxx.xxx.xxx:8080/rtc/:channelName/:role/:tokentype/:uid/
+   - 192.xxx.xxx.xxx:8080/rtc/:channelName/:role/:tokentype/:uid/
 3. Dual Token Endpoint
-   - RTM token can be obtained by this address : 192.xxx.xxx.xxx:8080/rte/:channelName/:role/:tokentype/:uid/
+   - 192.xxx.xxx.xxx:8080/rte/:channelName/:role/:tokentype/:uid/
