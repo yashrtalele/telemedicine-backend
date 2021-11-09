@@ -10,13 +10,16 @@ yash97@yash:~$ sudo apt-get install virtualenv
 ```console
 yash97@yash:~$ sudo apt-get install python3-pip
 ```
+3. Golang
+[Link to Golang installation](https://golang.org/doc/install)
 #### For windows
 1. virtualenv
 ```powershell
 PS C:\Users\yasht> python -m pip install --upgrade pip
 PS C:\Users\yasht> python -m pip install --user virtualenv
 ```
-
+2. Golang
+[Link to Golang downloads](https://golang.org/dl/)
 ### Initial Setup
 #### For ubuntu
 1. Make Projects directory
@@ -113,4 +116,10 @@ PS C:\Users\yasht\projects\telemedicine-backend> python manage.py migrate
 ### To deactivate virtualenv
 ```console
 deactivate
+```
+
+### Run Agora Token Server
+#### For ubuntu
+```console
+yash97@yash:~/Projects/telemedicine-backend/agora-token-server$ go run main.go
 ```
