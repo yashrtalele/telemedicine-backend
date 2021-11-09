@@ -120,11 +120,16 @@ deactivate
 
 ### Run Agora Token Server
 #### For ubuntu
-1. Replace the ip address on the line number 44 in main.go with your ip address.
+1. Run the following commands to get the packages
 ```console
-yash97@yash:~/Projects/telemedicine-backend/agora-token-server$ go run main.go
+  yash97@yash:~/Projects/telemedicine-backend/agora-token-server$ go get github.com/gin-gonic/gin
+  yash97@yash:~/Projects/telemedicine-backend/agora-token-server$ go get github.com/AgoraIO-Community/go-tokenbuilder
 ```
-2. Token server
+2. Replace the ip address on the line number 44 in main.go with your ip address.
+```console
+  yash97@yash:~/Projects/telemedicine-backend/agora-token-server$ go run main.go
+```
+3. Token server
    - 192.xxx.xxx.xxx:8080/rtc/:channelName/:role/:tokentype/:uid/
-3. Dual Token Endpoint
+4. Dual Token Endpoint
    - 192.xxx.xxx.xxx:8080/rte/:channelName/:role/:tokentype/:uid/
