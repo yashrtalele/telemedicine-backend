@@ -1,4 +1,4 @@
-# telemedicine-backend
+# Backend of Telemedicine
 
 ### Initial Installations
 #### For ubuntu
