@@ -39,7 +39,7 @@ AUTH_PROVIDERS = {'facebook': 'facebook', 'google': 'google',
 
 class User(AbstractBaseUser, PermissionsMixin):
     id = models.UUIDField(unique=True, primary_key=True, auto_created=True, default=uuid.uuid4)
-    role = models.CharField(max_length=255, unique=True, db_index=True)
+    role = models.CharField(max_length=255, db_index=True)
     email = models.EmailField(max_length=255, unique=True, db_index=True)
     is_verified = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
